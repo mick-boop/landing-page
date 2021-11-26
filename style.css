@@ -2,6 +2,8 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 .logo{
     width: 100px;
@@ -77,4 +79,19 @@ button{
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+.description{
+    width: 150px;
+    height: 150px;
+}
+
+.outline{
+    display: flex;
+    
+}
+.imageone, .imagetwo, .imagethree, .imagefour{
+    
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
 }
